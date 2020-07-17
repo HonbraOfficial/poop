@@ -1,0 +1,39 @@
+/* CSS files add styling rules to your content */
+
+@import url("https://fonts.googleapis.com/css?family=Product+Sans");
+
+body {
+  font-family: "Product Sans", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#poop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+#honbra {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 40px;
+  z-index: 2;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(61, 61, 61, 0.5);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#honbra:hover {
+  text-decoration: underline;
+}
